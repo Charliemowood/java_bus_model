@@ -16,6 +16,11 @@ public void hasNumber() {
   assertEquals(56, bus.getNumber());
 }
 
+@Test
+public void passengersStartEmpty() {
+  assertEquals(0, bus.passengerCount());
+}
+
 
 
 }
